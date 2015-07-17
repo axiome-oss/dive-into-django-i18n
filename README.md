@@ -1,6 +1,7 @@
 This project is here to illustrate my how to of django i18n articles that you can read here.
 
 * [Dive into Django i18n part 1](http://www.metod.io/blog/2015/05/05/django-i18n-part-1/)
+* [Dive into Djanjo i18n part 2](http://www.metod.io/blog/2015/07/22/dive-django-i18n-part-2/)
 
 # Getting Started
 
@@ -16,5 +17,7 @@ After that, you will need to do these commands:
     virtualenv .
     source bin/activate
     pip install -r requirements.txt
+    cd your_project
+    python manage.py migrate
 
 This repository will have tags that matches the articles counterparts and are name part-#

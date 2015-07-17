@@ -9,4 +9,5 @@ urlpatterns = [
 
 urlpatterns += i18n_patterns(
     url(r'^test$', 'your_package.views.test', name='test'),
+    url(r'^user/([0-9]+)$', 'your_package.views.user'),
 )

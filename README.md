@@ -18,6 +18,23 @@ After that, you will need to do these commands:
     source bin/activate
     pip install -r requirements.txt
     cd your_project
+    export SECRET_KEY='YOUR_SECRET_KEY'
+
+Write your database settings in your_project/your_project/database.py like this
+	
+	DATABASES = {
+	    'default': {
+	        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+	        'NAME': 'your_db_name',
+	        'USER' : 'your_db_user',
+	        'PASSWORD' : 'your_db_password',
+	        'HOST' : 'your_db_host',
+	        'PORT' : '5432',
+	    }
+	}
+
+And finally install your models in the database
+
     python manage.py migrate
 
 This repository will have tags that matches the articles counterparts and are name part-#

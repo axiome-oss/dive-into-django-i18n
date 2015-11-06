@@ -23,8 +23,8 @@ msgstr "Bonjour le monde"
 
 #: your_project/settings.py:42
 msgid "English"
-msgstr ""
+msgstr "Anglais"
 
 #: your_project/settings.py:43
 msgid "French"
-msgstr ""
+msgstr "Français"
